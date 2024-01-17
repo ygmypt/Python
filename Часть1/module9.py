@@ -1,14 +1,14 @@
 memory = {}
 
 def ответ_да_или_нет(вопрос):
-    transformed_question = вопрос.lower().strip()  # Привести вопрос к нижнему регистру и удалить пробелы
+    transformed_question = вопрос.lower().strip()  
 
     if transformed_question in memory:
         ответ = memory[transformed_question]
         print("Ответ (из памяти):", ответ)
     else:
         ответ = input("Введите ответ на вопрос (\"да\" или \"нет\"): ")
-        memory[transformed_question] = ответ  # Запомнить вопрос и ответ в памяти
+        memory[transformed_question] = ответ 
         print("Ответ:", ответ)
 
 ответ_да_или_нет("Будет ли завтра дождь?")
