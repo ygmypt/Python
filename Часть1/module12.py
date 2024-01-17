@@ -9,4 +9,4 @@ class Person:
  
 person1 = Person("Иванов", "Иван", "Иванович")
 
-print(person1.get_full_name())  # Выведет: Иванов Иван Иванович
+print(person1.get_full_name()) 
