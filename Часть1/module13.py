@@ -6,7 +6,6 @@ def add_unique_below_10(num):
     else:
         print("Число превышает 10 или уже присутствует в списке и не может быть добавлено.")
 
-# Добавление уникальных элементов в список
 add_unique_below_10(5)
 add_unique_below_10(12)
 add_unique_below_10(8)
